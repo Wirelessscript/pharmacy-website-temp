@@ -1,0 +1,40 @@
+h1 {
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+}
+
+.image1 img {
+    width: 200px;
+    border-radius: 500px;
+}
+
+.image1 {
+    display: flex;
+    text-align: left;
+    background-color: rgb(73, 77, 77);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image1 p {
+    color: azure;
+    width: 50%;
+}
+
+.image2 img{
+    width: 200px;
+    border-radius: 500px;
+}
+
+.image2 {
+    display: flex;
+    text-align: left;
+    background-color: rgb(73, 77, 77);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image2 p {
+    color: azure;
+    width: 50%;
+}

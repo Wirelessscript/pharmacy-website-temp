@@ -1,0 +1,90 @@
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+.MobileNavigation {
+    display: none;
+}
+
+.DesktopNavigation img {
+    width: 30%;
+    height: 15vh;
+}
+
+.DesktopNavigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5rem;
+    height: 15vh;
+}
+
+.DesktopNavigation ul {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem;
+}
+
+.DesktopNavigation .NavLinks a{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.DesktopNavigation .NavLinks a:hover {
+    text-decoration: underline;
+    color: burlywood;
+}
+
+
+@media (max-width: 800px) {
+
+    .DesktopNavigation {
+        display: none;
+    }
+
+    .MobileNavigation {
+        display: flex;
+        align-items: center;
+        height: 15vh;
+        right: 0px;
+        width: 100vw;
+        justify-content: space-between;
+    }
+
+    .MobileNavigation img {
+        width: 50%;
+        height: 15vh;
+    }
+
+    .HamburgerMenu {
+        position: relative;
+        margin-right: 2rem;
+        cursor: pointer;
+    }
+
+    .NavLinks ul {
+        display: flex;
+        flex-direction: column;
+        color: black;
+        position: absolute;
+        justify-content: space-evenly;
+        border-top: 3px solid white;
+        top: 15vh;
+        right: 0;
+        height: 50vh;
+        width: 100vw;
+        background:black;
+        text-align: center;
+    }
+
+    .NavLinks ul a {
+        color: white;
+    }
+
+    .NavLinks ul a:hover {
+        color: red;
+    }
+
+}
